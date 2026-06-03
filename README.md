@@ -4,11 +4,11 @@ Implementación de Arquitectura de Red Resiliente y Aislamiento de Entornos medi
 Introducción
 Este proyecto demuestra el despliegue de una infraestructura de red segura y altamente estructurada en la nube bajo los pilares de segmentación perimetral, control de flujo de tráfico y aislamiento de entornos. Utilizando los servicios de Microsoft Azure, se configuró una topología híbrida de tipo Hub-and-Spoke orientada al sector empresarial. Para validar el comportamiento dinámico y las políticas de enrutamiento del sistema, se realizaron pruebas de conectividad ICMP y saltos lógicos de administración vía SSH, forzando la verificación del principio de no-transitividad de los enlaces para garantizar que los entornos críticos de producción y desarrollo permanezcan completamente aislados de forma eficiente y transparente.
 
-Azure Resource Groups
-Azure Virtual Networks
-Azure VNet Peerings
-Azure Virtual Machines
-Network Security Groups
+* Azure Resource Groups
+* Azure Virtual Networks
+* Azure VNet Peerings
+* Azure Virtual Machines
+* Network Security Groups
 
 Topología
 <img width="968" height="713" alt="image" src="https://github.com/user-attachments/assets/dbf820d7-44b4-400b-a786-4c5c4d4ac81e" />
